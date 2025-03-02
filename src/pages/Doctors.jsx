@@ -22,7 +22,7 @@ const DoctorsPage = () => {
         // Extract unique specialities from doctors
         const uniqueSpecialities = [...new Set(response.data.map(doc => doc.specialization))];
         setSpecialities(uniqueSpecialities);
-        
+        // 
       } catch (err) {
         setError("Failed to load doctors. Please try again.");
         console.error("❌ Error fetching doctors:", err);
