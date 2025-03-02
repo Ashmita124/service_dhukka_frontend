@@ -13,7 +13,7 @@ const AppointmentSuccess = () => {
       setAppointmentDetails(storedAppointment);
     }
   }, []);
-
+// 
   return (
     <>
       <Navbar />
