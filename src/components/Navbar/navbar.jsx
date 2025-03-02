@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
 
   const isLoggedIn = user !== null;
-
+// 
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
