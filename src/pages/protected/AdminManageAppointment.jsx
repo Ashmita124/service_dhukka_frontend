@@ -10,7 +10,7 @@ const ManageAppointmentsPage = () => {
   const [error, setError] = useState("");
 
   const token = localStorage.getItem("token");
-
+// 
   // ✅ Fetch all appointments
   useEffect(() => {
     const fetchAppointments = async () => {
