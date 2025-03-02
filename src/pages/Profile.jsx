@@ -24,6 +24,7 @@ const ProfilePage = () => {
       fetchCart(storedUser._id);
       fetchOrders(storedUser._id);
     }
+    // 
 
     setLoading(false);
   }, []);
