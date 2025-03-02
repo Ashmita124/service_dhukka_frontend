@@ -23,7 +23,7 @@ const AdminManageProducts = () => {
     image: null,
     description: "",
   });
-
+// 
   const token = localStorage.getItem("token");
 
   // Fetch Medicines
