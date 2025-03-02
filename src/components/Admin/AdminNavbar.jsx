@@ -9,7 +9,7 @@ const AdminNavbar = () => {
     e.preventDefault();
     alert(`Searching for: ${searchQuery}`);
   };
-
+// 
   return (
     <nav className="bg-white p-4 flex items-center justify-between w-full shadow-md">
       {/* ✅ Logo Section */}
