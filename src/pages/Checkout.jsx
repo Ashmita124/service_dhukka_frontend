@@ -22,7 +22,7 @@ const CheckoutPage = () => {
         alert("User not logged in. Please log in.");
         return;
       }
-
+// 
       const user = JSON.parse(storedUser);
       const userId = user._id;
 
