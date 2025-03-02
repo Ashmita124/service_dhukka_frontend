@@ -11,7 +11,7 @@ const Carousel = () => {
   ];
 
 
-
+// 
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
