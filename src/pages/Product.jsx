@@ -19,7 +19,7 @@ const MedicineProductList = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [products, setProducts] = useState([]);  // State to store the fetched products
   const [loading, setLoading] = useState(true);  // State for loading indicator
-
+// 
   // Fetch products from the API
   useEffect(() => {
     const fetchProducts = async () => {
