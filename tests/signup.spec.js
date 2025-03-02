@@ -21,7 +21,7 @@ test.describe('Sign-Up Page Tests', () => {
     //     await page.fill('input[placeholder="Password"]', 'Test@123');
     
     //     await page.click('form button[type="submit"]');
-    
+    // 
     //     // ✅ Wait for up to 30 seconds to allow email sending to complete
     //     await expect(page.locator('text="Sign up successful"')).toBeVisible({ timeout: 30000 });
         
