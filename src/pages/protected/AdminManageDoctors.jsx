@@ -17,7 +17,7 @@ const AdminManageDoctors = () => {
   });
 
   const token = localStorage.getItem("token");
-
+// 
   // Fetch Doctors from API
   const fetchDoctors = async () => {
     try {
