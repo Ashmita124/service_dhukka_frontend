@@ -22,7 +22,7 @@ test.describe('Products Page Tests', () => {
     test('should display products on the page', async ({ page }) => {
         // Wait for products to load
         await page.waitForSelector('.bg-white.rounded-lg.shadow-md.p-4');
-
+// 
         // Check that at least one product is displayed
         const productCount = await page.locator('.bg-white.rounded-lg.shadow-md.p-4').count();
         expect(productCount).toBeGreaterThan(0);
