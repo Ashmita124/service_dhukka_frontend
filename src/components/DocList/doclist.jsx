@@ -38,5 +38,5 @@ const DoctorListComponent = ({ doctor }) => {
     </div>
   );
 };
-
+// 
 export default DoctorListComponent;
