@@ -11,7 +11,7 @@ const Button = ({ label, variant = "primary", onClick, className }) => {
       "text-gray-700 border border-gray-700 hover:bg-gray-100 font-medium rounded-lg text-sm px-4 py-2",
     // Add more variants as needed
   };
-
+// 
   return (
     <button
       type="button"
