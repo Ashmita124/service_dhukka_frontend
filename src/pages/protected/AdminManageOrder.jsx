@@ -20,7 +20,7 @@ const AdminOrders = () => {
       setLoading(false);
     }
   };
-
+// 
   const updateOrderStatus = async (orderId, status) => {
     try {
       const response = await axios.put(`http://localhost:5003/order/status/${orderId}`, { status });
